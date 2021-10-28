@@ -1,0 +1,23 @@
+
+
+while wait do
+
+
+local args = {
+    [1] = game:GetService("Players")["CookiePlayer_55"].PlayerGui.CarSpawner.Cars["Volkswagen Jetta"],
+    [2] = game:GetService("Players")["CookiePlayer_55"].PlayerGui.CarSpawner.CarPosition,
+}
+
+game:GetService("ReplicatedStorage").CarEvents:FireServer(unpack(args))
+wait(0)
+
+
+local args = {
+    [1] = game:GetService("Players")["CookiePlayer_55"].PlayerGui.CarSpawner.Cars["Volkswagen Jetta"],
+    [2] = game:GetService("Players")["CookiePlayer_55"].PlayerGui.CarSpawner.CarPosition,
+}
+
+game:GetService("ReplicatedStorage").CarEvents:FireServer(unpack(args))
+wait(0)
+
+end
